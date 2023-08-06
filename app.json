@@ -24,19 +24,23 @@
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
+            "value": "3334521"
             "required": true
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
+            "value": "29edd7420d528140c7a04bd47486886f"
             "required": true
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
+            "value": "ary_bots"
             "required": false
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
-            "required": true
+            "value": "5079629749"
+"required": true
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
@@ -52,11 +56,13 @@
         },
         "AUTH_CHANNEL": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
-            "required": false
+           "value": "-1001267201719"
+ "required": false
         },
         "DATABASE_URI": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
-            "required": true
+            "value": "mongodb+srv://Aryan829235:Aryan829235@cluster0.btc4eto.mongodb.net/?retryWrites=true&w=majority"
+"required": true
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
